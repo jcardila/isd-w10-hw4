@@ -7,5 +7,9 @@
 </ul>
 
 <p>
-  <a href="/places/new">New place</a>
+  <% if @current_user %>
+    <a href="/places/new">New place</a>
+  <% else %>
+    Login to create new places!
+  <% end %>
 </p>

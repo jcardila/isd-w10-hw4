@@ -29,7 +29,7 @@ Complete all user stories along with the following specific functionality.
 	- [x] Use @current_user to conditionally show the login/signup links or a logout button (<%= button_to "Logout", "/sessions/logout", method: :delete %>). You will first need to assign @current_user in the global application controller.
 	- [x] In the sessions controller, "logout" a logged-in user (i.e. remove the user's id from the session hash) and redirect to login.
 - (3 points) User Authorization
-	- [ ] Only show the new post form to logged-in users (i.e. if there is a @current_user).
+	- [x] Only show the new post form to logged-in users (i.e. if there is a @current_user).
 	- [ ] Assign new posts to the logged-in user (aka @current_user).
 	- [ ] Only show posts created by the logged-in user (aka @current_user). Hide all other users' posts. (Note: logged-out users should also not be able to see other users' posts).
 - (5 points) Frontend with Bootstrap
