@@ -10,7 +10,7 @@
   <% end %>
 
   <p>
-    <a href="/posts/new?place_id=<%= @place.id %>">New Post</a>
+    <a href="/posts/new?place_id=<%= @place.id %>" class="btn btn-primary">New Post</a>
   </p>
 
 <% else %>
@@ -18,5 +18,5 @@
 <% end %>
 
 <p>
-  <a href="/places">Back to All Places</a>
+  <a href="/places" class="btn btn-secondary">Back to All Places</a>
 </p>

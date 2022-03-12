@@ -34,9 +34,9 @@ Complete all user stories along with the following specific functionality.
 	- [x] Only show posts created by the logged-in user (aka @current_user). Hide all other users' posts. (Note: logged-out users should also not be able to see other users' posts).
 - (5 points) Frontend with Bootstrap
 	- [x] Install Bootstrap including both the <link> (in the <head> before any custom stylesheets) and the <script> (just before the closing </body>).
-	- [ ] Add Bootstrap's navbar component (any version). Move the relevant links (e.g. "Home", "Login", "Signup", "Logout") into the navbar.
-	- [ ] Wrap the <%= yield %> content in a Bootstrap .container.
-	- [ ] Using the Bootstrap button component, style the links to forms and the form submit buttons.
+	- [x] Add Bootstrap's navbar component (any version). Move the relevant links (e.g. "Home", "Login", "Signup", "Logout") into the navbar.
+	- [x] Wrap the <%= yield %> content in a Bootstrap .container.
+	- [x] Using the Bootstrap button component, style the links to forms and the form submit buttons.
 	- [ ] Use the Bootstrap grid for posts (3 posts per row on large screens, stacking on small screens). See wireframe.
 	- [ ] Use the bootstrap spacing (margin or padding) as needed, but at least twice (not counting the navbar).
 - (3 points) File Attachment
