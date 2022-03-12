@@ -3,11 +3,15 @@
 <% if @current_user %>
 
   <h2>My Posts</h2>
-  <% for post in @place.posts.where({ user_id: @current_user.id }) %>
-    <h3><%= post.title %></h3>
-    <h4><%= post.posted_on %></h4>
-    <p><%= post.description %></p>
-  <% end %>
+  <div class="row">
+    <% for post in @place.posts.where({ user_id: @current_user.id }) %>
+      <div class="col-lg-4 col-sm-12">
+        <h3><%= post.title %></h3>
+        <h4><%= post.posted_on %></h4>
+        <p><%= post.description %></p>
+      </div>
+    <% end %>
+  </div>
 
   <p>
     <a href="/posts/new?place_id=<%= @place.id %>" class="btn btn-primary">New Post</a>
