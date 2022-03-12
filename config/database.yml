@@ -22,4 +22,7 @@ test:
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  adapter: postgresql
+  database: isd_w10_hw4_travel_journal_production #use same name as application and repository name so they dont conflict between projects
+  username: isd_w10_hw4_travel_journal
+  password: <%= ENV["ISD_W10_HW4_TRAVEL_JOURNAL_DATABASE_PASSWORD"] %>
