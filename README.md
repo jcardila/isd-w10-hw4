@@ -2,6 +2,10 @@
 
 Full instructions at https://entr451.com/homework-4/
 
+# Live URL
+
+https://isd-travel-journal.herokuapp.com/
+
 # TODO
 ## User Stories
 For this assignment, we are taking the previous assignment which was just for your personal use, and modifying it to allow for multiple users.  Some aspects of the user stories below are already complete.
@@ -49,5 +53,5 @@ Complete all user stories along with the following specific functionality.
 	- [x] Add a new field to the posts form for uploading an image (form.file_field).
 	- [x] If a post has an attached image (post.image.attached?), display the attached image (url_for(post.image)).
 - (2 points) Deployment with Heroku
-	- [ ] Follow the steps to connect to Heroku and deploy your app (https://entr451.com/deployment-with-heroku/)
-	- [ ] Once live, add the URL to your live heroku website in the README.md file of your app.
+	- [x] Follow the steps to connect to Heroku and deploy your app (https://entr451.com/deployment-with-heroku/)
+	- [x] Once live, add the URL to your live heroku website in the README.md file of your app.
