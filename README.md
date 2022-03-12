@@ -38,7 +38,7 @@ Complete all user stories along with the following specific functionality.
 	- [x] Wrap the <%= yield %> content in a Bootstrap .container.
 	- [x] Using the Bootstrap button component, style the links to forms and the form submit buttons.
 	- [x] Use the Bootstrap grid for posts (3 posts per row on large screens, stacking on small screens). See wireframe.
-	- [ ] Use the bootstrap spacing (margin or padding) as needed, but at least twice (not counting the navbar).
+	- [x] Use the bootstrap spacing (margin or padding) as needed, but at least twice (not counting the navbar).
 - (3 points) File Attachment
 	- [ ] Configure the application for uploads:
 	- [ ] uncomment the image_processing gem in the Gemfile
