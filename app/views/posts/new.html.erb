@@ -11,6 +11,10 @@
       <%= form.text_field "description" %>
     </p>
     <p>
+      <%= form.label "uploaded_image" %>
+      <%= form.file_field "uploaded_image", accept: "image/jpg,image/jpeg,image/png" %>
+    </p>
+    <p>
       <%= form.label "posted_on" %>
       <%= form.date_field "posted_on" %>
     </p>
